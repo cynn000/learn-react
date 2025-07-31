@@ -5,6 +5,9 @@
 body {
      font-family: "Intel One Mono", sans-serif;
      margin: 0;
+     background-color: #fff563;
+     color: #c48d3f;
+     font-weight: 600;
 }
 
 .navbar-header {
@@ -26,5 +29,31 @@ body {
 .navbar-text {
      font-size: 1.5rem;
      font-weight: 700;
+     color: #13b05e
+}
+
+.main {
+     padding: 60px 30px;
+     background-image: url(/src/assets/animal-crossing-gyroid.png);
+     background-repeat: no-repeat;
+     background-position: right 70%;
+}
+
+.main-header {
+     margin: 0;
+     font-size: 2.4rem;
+}
+
+.facts-list {
+     margin-top: 40px;
+}
+
+.facts-list-item {
+     padding-block: 10px;
+     line-height: 19px;
+}
+
+.facts-list-item::marker {
+     font-size: 1.5rem;
      color: #13b05e
 }
