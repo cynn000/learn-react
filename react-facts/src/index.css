@@ -6,6 +6,8 @@
 body {
     margin: 0;
     font-family: Inter, sans-serif;
+     background-color: #282D35;
+     color: white;
 }
 
 .navbar-header {
@@ -29,4 +31,27 @@ body {
 .navbar-image {
      width: 40px;
      margin-right: 7px;
+}
+
+.main {
+    padding: 60px 30px;
+}
+
+.main-header {
+     margin: 0;
+     font-size: 2.4rem;
+}
+
+.facts-list {
+     margin-top: 40px;
+     max-width: 400px;
+}
+
+.facts-list-item {
+     padding-block: 10px;
+     line-height: 19px;
+}
+
+.facts-list-item::marker {
+     font-size: 1.5rem;
 }
